@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Interaction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="main-body">
+  <header>
+    <h1 id="message">Week 5 Assignment</h1>
+    <h1 id="heading">Welcome user!</h1>
+    <p>Wanna change the main title....<button id="btn"> CLICK ME</button></p>
+    <p>Modify page <button onclick="changeStyle()">HERE</button></p>
+    
+  </header>
+  <nav>
+    <h2 id="navig">This is JavaScript and DOM assignment</h2>
+  </nav>
+  <main>
+    <section>
+      <p id="text">The Document Object Model (DOM) is the foundation of every modern web page. It’s what allows JavaScript to interact with HTML and CSS dynamically. In this guide, we’ll explore what the DOM is, how to select elements, and how to manipulate them to create interactive, dynamic websites. </p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    
+
+   
+    <section>
+        <h3>NOTE DOWN THE FOLLOWING</h3>
+        <P>The code should,</P>
+        <ul id="list">
+            <li>Modify CSS styles via JavaScript.</li>
+            <li>Adds or removes an element when a button is clicked.</li>
+        </ul>
+        <button id="add">Add final list item</button>
+    </section>
+    <section>
+        <button onclick="toggleElement()">Finally</button>
+        <div id="extra-element"></div>
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; kiprotich25.dev</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: bisque;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+  </style>
+</body>
+</html>
